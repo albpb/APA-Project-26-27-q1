@@ -1,0 +1,5 @@
+Falta aclarar la parte inicial. las variables que usaria yo son de la 2 a la 112 pero eliminando las qeu no podemos usar, que son las columnas {93, 94, 95, 100, 101, 102, 103, 104, 105}. Si quieres seleccionar solo algunas variables para hacer visualizacion y correlacion, pero haria correlacion con todas y a partir del plot coger las qeu tienen más correlacion (por ejemplo)
+Podemos hacer naive bayes como first approach (es la que pone en el lab de esta semana que es la más facil) pero he visto que segun el tipo de variables se usa una variante u otra. el gemini me recomienda que como la mayoria de variables qeu tenemos son categoricas (discrtas) lo que hagamos par este primer analisis es discretizar las variables continuas en rangos (como la edad, la presion arterial, etc)
+Yo he implementado la imputacion de los valores y el bayes para que ya esté hecho, pero hay que poner en X y en y lo que toca, osea los datos habiendo quitado las columnas con info del futuro y ya discretizadas. 
+
+Ya me dices qué opinas :)
